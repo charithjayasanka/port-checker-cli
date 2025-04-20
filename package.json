@@ -1,0 +1,41 @@
+{
+  "name": "port-checker-cli",
+  "version": "1.0.0",
+  "description": "🔍 Developer-friendly CLI tool to check open ports, detect protocols, and manage bound processes.",
+  "main": "bin/port-checker.js",
+  "bin": {
+    "port-checker": "bin/port-checker.js"
+  },
+  "type": "module",
+  "author": {
+    "name": "Charith Jayasanka",
+    "url": "https://www.linkedin.com/in/charithcj"
+  },
+  "license": "MIT",
+  "keywords": [
+    "cli",
+    "network",
+    "port",
+    "devtools",
+    "tcp",
+    "protocol",
+    "debug",
+    "lsof",
+    "port-scanner",
+    "socket"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/charithg/port-checker-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/charithg/port-checker-cli/issues"
+  },
+  "homepage": "https://www.linkedin.com/in/charithcj",
+  "dependencies": {
+    "chalk": "^5.3.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
