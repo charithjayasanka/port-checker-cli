@@ -31,7 +31,11 @@
   "bugs": {
     "url": "https://github.com/charithg/port-checker-cli/issues"
   },
-  "homepage": "https://www.linkedin.com/in/charithcj",
+  "author": {
+    "name": "Charith Jayasanka",
+    "url": "https://www.linkedin.com/in/charithcj"
+  },
+  "homepage": "https://github.com/charithg/port-checker-cli#readme",
   "dependencies": {
     "chalk": "^5.3.0"
   },
