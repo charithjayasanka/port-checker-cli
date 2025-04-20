@@ -47,20 +47,28 @@ port-checker 3306
 ```
 
 ```
+$ port-checker 8243
+
 ┌─────────────────────────────────────┐
-│ ✅  Port 3306 is OPEN               │
+│ ✅  Port 8243 is OPEN               │
 └─────────────────────────────────────┘
 
 🌐  HTTP(S) Response:
-    Both HTTP and HTTPS failed: Parse Error: Expected HTTP/
+    Protocol: HTTPS (handshake failed)
 
 🧩  Bound Process:
-    Unable to determine bound process. Try running with sudo.
+    java (pid: 35916)
+    Command: Listening on (LISTEN)
+
+⚠️  Do you want to kill process 35916? (y/n): y
+✅ Process 35916 terminated.
 
 📋  Summary:
-    Port: 3306
-    Protocol: MySQL (version: 8.2.0)
+    Port: 8243
+    Protocol: HTTPS (handshake failed)
+    PID: 35916
     Status: Open
+
 ```
 
 ---
