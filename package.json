@@ -1,6 +1,6 @@
 {
   "name": "port-checker-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "🔍 Developer-friendly CLI tool to check open ports, detect protocols, and manage bound processes.",
   "main": "bin/port-checker.js",
   "bin": {
